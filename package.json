@@ -38,7 +38,7 @@
   ],
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
+    "dev": "gatsby develop --open",
     "format": "prettier --write \"**/*.{js,jsx,json,md,mdx}\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
