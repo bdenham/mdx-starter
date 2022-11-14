@@ -1,38 +1,36 @@
-# using-mdx
+# mdx-starter
 
-This repository demonstrates how to use MDX with Gatsby.
+This repository demonstrates how to use MDX with Gatsby v5.
 
 ## 🔧 Running locally
 
 The site can be run locally on your own computer as well by following these steps:
 
-1. Clone the `gatsby` repository
+1. Clone this repo:
 
 ```shell
-git clone git@github.com:gatsbyjs/gatsby.git
+git@github.com:bdenham/mdx-starter.git
 ```
 
-2. Navigate to the example
+2. Navigate to the local project:
 
 ```shell
-cd gatsby/examples/using-mdx
+cd mdx-starter
 ```
 
-3. Install the dependencies for the application by running
+3. Install the dependencies by running
 
 ```shell
-
-npm install
-
+yarn install
 ```
 
-4. Run the Gatsby development server
+4. Run the `dev` script to build the project. 
 
 ```shell
-gatsby develop
+yarn dev
 ```
 
-The site is now running at `http://localhost:8000`, you can see the MDX example page at `http://localhost:8000/chart-info`
+The site should be displayed in your browser at `http://localhost:8000`, you can see the MDX example page at `http://localhost:8000/mermaid`
 
 ## 🧰 Learn more
 
