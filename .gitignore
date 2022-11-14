@@ -1,0 +1,16 @@
+node_modules
+public
+.yalc
+yalc.lock
+.idea
+.cache
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+yalc.lock
+
+node_modules.nosync
