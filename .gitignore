@@ -1,7 +1,7 @@
 node_modules
 public
-.yalc
-yalc.lock
+#.yalc
+#yalc.lock
 .idea
 .cache
 .pnp.*
@@ -11,6 +11,3 @@ yalc.lock
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-yalc.lock
-
-node_modules.nosync

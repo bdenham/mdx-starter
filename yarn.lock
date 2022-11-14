@@ -8405,14 +8405,14 @@ __metadata:
 
 "gatsby-remark-mermaid@file:.yalc/gatsby-remark-mermaid::locator=mdx-starter%40workspace%3A.":
   version: 2.2.0
-  resolution: "gatsby-remark-mermaid@file:.yalc/gatsby-remark-mermaid#.yalc/gatsby-remark-mermaid::hash=8b6614&locator=mdx-starter%40workspace%3A."
+  resolution: "gatsby-remark-mermaid@file:.yalc/gatsby-remark-mermaid#.yalc/gatsby-remark-mermaid::hash=8a5511&locator=mdx-starter%40workspace%3A."
   dependencies:
     mermaid: ^9.2.2
     unist-util-visit: 2.0.3
   peerDependencies:
     puppeteer: "*"
     puppeteer-core: "*"
-  checksum: 06c7632efa1fb89a71ca7f0b01e2f3e49495852039328d8a2e98975a17c06e70bb1709e0a54f2a5acdc24c2bbdb24ce775e584ed61cc9b4f311e3c5f1cc1579d
+  checksum: 53ae39a4d48d0804bbe60697de800421ac8f11ca4d3c8615202dd55089d32dbdf7c5336d527f6133ce6cc1f850f094d4d21d3ffac7b213c0e09ad336307b9f68
   languageName: node
   linkType: hard
 

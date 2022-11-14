@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "gatsby-remark-mermaid": {
+      "signature": "12ea3f239ff1ae5bcbaf5b00a9a2ad9c",
+      "file": true
+    }
+  }
+}
