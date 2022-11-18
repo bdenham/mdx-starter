@@ -8,7 +8,11 @@ dependency on mermaid.
 
 ## Install
 
-`npm install --save gatsby-remark-mermaid gatsby-transformer-remark puppeteer`
+```bash
+npm install gatsby-remark-mermaid gatsby-transformer-remark &&
+npm install --save-dev puppeteer puppeteer-core
+```
+
 
 ## How to Use
 
@@ -16,8 +20,7 @@ This plugin processes markdown code blocks. If you have any other plugins which 
 make sure you **import this before those plugins**.
 
 Add the plugin to your `gatsby-config.js`.
-
-```javascript
+```js
 {
   plugins: [
     {
@@ -34,12 +37,12 @@ Add the plugin to your `gatsby-config.js`.
 
 Now you can use markdown:
 
-```mermaid
-graph LR
-install[Install Plugin]
-install --> configure[Configure Plugin]
-configure --> draw[Draw Fancy Diagrams]
-```
+    ```mermaid
+    graph LR
+      install[Install Plugin]
+      install --> configure[Configure Plugin]
+      configure --> draw[Draw Fancy Diagrams]
+    ```
 
 To generate:
 
