@@ -45,8 +45,7 @@ module.exports = {
                 ],
               },
               mermaidOptions: {
-                theme: 'neutral',
-                themeCSS: '.node rect { fill: #fff; }',
+                theme: 'base',
               },
             },
           },
