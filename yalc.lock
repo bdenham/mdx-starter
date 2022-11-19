@@ -2,8 +2,9 @@
   "version": "v1",
   "packages": {
     "gatsby-remark-mermaid": {
-      "signature": "fc63ad038c5e48134cc764fbde5223eb",
-      "file": true
+      "signature": "e2197e99303e3374a6ab69266bf03f72",
+      "file": true,
+      "replaced": "file:./gatsby-remark-mermaid"
     }
   }
 }

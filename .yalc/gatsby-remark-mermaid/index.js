@@ -1,5 +1,5 @@
-module.exports = async (ast, options) => {
+module.exports = async ({ markdownAST }, options) => {
     const { default: plugin } = await import('remark-mermaidjs')
-    const transformer = plugin(options)
-    return transformer(ast)
+    const transformer = plugin(options);
+    return transformer(markdownAST)
 };
