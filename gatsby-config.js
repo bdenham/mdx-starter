@@ -1,3 +1,5 @@
+const puppeteer = require("puppeteer");
+
 const wrapESMPlugin = (name) =>
   function wrapESM(opts) {
     return async (...args) => {
@@ -37,15 +39,23 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
-            resolve: 'gatsby-remark-mermaid',
+            resolve: `gatsby-remark-mermaid`,
             options: {
-              language: 'mermaid',
-              theme: 'base',
-              viewport: {
-                width: 1280,
-                height: 800
+              launchOptions: {
+                executablePath: puppeteer.executablePath(),
+                defaultViewport: {
+                  width: 600,
+                  height: 3000,
+                }
               },
-              mermaidOptions: {},
+              svgo: {
+                plugins: [
+                  { name: 'removeTitle', active: false },
+                ],
+              },
+              mermaidOptions: {
+                theme: 'base',
+              },
             },
           },
           {
