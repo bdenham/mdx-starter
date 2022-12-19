@@ -1,11 +1,12 @@
-const visit = require(`unist-util-visit`);
-const toString = require(`mdast-util-to-string`);
+import {visit} from "unist-util-visit";
+import {toString} from "mdast-util-to-string";
 
-exports.remarkHeadingsPlugin = function remarkHeadingsPlugin() {
+export function remarkHeadingsPlugin() {
   return async function transformer(tree, file) {
     let headings = [];
 
     visit(tree, `heading`, (heading) => {
+      heading.depth = undefined;
       headings.push({
         value: toString(heading),
         depth: heading.depth,
@@ -19,4 +20,4 @@ exports.remarkHeadingsPlugin = function remarkHeadingsPlugin() {
 
     mdxFile.data.meta.headings = headings;
   };
-};
+}
