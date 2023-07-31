@@ -5,6 +5,7 @@
   "private": true,
   "license": "0BSD",
   "dependencies": {
+    "@graphiql/toolkit": "^0.9.1",
     "@mdx-js/react": "^2.3.0",
     "@nivo/core": "0.80.0",
     "@nivo/line": "0.80.0",
@@ -15,6 +16,8 @@
     "gatsby-remark-images": "7.8.0",
     "gatsby-remark-mermaid": "^3.0.1",
     "gatsby-source-filesystem": "5.8.0",
+    "graphiql": "^3.0.5",
+    "graphql": "^16.7.1",
     "khroma": "^2.0.0",
     "mdast-util-to-string": "^3.1.1",
     "react": "^18.2.0",
